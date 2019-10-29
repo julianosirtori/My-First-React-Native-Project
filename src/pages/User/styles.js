@@ -60,6 +60,11 @@ export const Info = styled.View`
   flex: 1px;
 `;
 
+export const Loading = styled.ActivityIndicator.attrs({
+  color: '#eee',
+  size: 'large',
+})``;
+
 export const Title = styled.Text.attrs({
   numberOfLines: 1,
 })`
